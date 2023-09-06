@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    z-index: 10;
+    background-color: #FDC435;
+
+}
+.menu{
+    list-style-type: none;
+    padding-right: 50px;
+    z-index: 10;
+    background-color: transparent;
+}
+ 
+.menu li{
+    display: inline-block;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Poppins';
+    background-color: transparent;
+    
+}
+.menu a{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right{
+    padding: 25px 50px;
+
+}
+.left{
+    padding: 200px 150px;
+}
+.contact-info h1{
+    text-align: center;
+    margin: 10px;
+    font-family: Playfair Display;
+    font-size: 30px;
+}
+.contact-info p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: poppins;
+    margin-top: 15px;
+}
+.contact-info span{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.contact-info i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+legend{
+    font-family: Playfair Display;
+    font-size: 30px;
+}
+fieldset{
+    padding: 20px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+.form-group label {
+display: inline-block;
+margin-right: 5px;
+width: 250px;
+font-weight: bold;
+font-family: poppins;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+padding: 8px;
+width: 50%;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+position: relative;
+font-family: poppins;
+}
+
+.form-group textarea {
+    vertical-align: top;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+    font-family: poppins;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+    font-family: poppins;
+}
+.button{
+    text-align: center;
+}
+
+.form-group input[type="button"] {
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 25px auto;
+    background-color: #FDC435;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: poppins;
+}
